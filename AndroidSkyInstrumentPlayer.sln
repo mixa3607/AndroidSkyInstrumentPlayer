@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASIP.Shared", "ASIP.Shared\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASIP.Parsers", "ASIP.Parsers", "{EB667F6D-3DBD-42DE-A9F2-12CC76E755C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASIP.COTLTracker", "ASIP.COTLTracker\ASIP.COTLTracker.csproj", "{5CF24E1E-F055-4570-A50F-EC4897976DCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASIP.Parsers.COTLTracker", "ASIP.Parsers.COTLTracker\ASIP.Parsers.COTLTracker.csproj", "{5CF24E1E-F055-4570-A50F-EC4897976DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASIP.Parsers.SkyStudio", "ASIP.Parsers.SkyStudio\ASIP.Parsers.SkyStudio.csproj", "{9FEC00DE-CF05-4FFC-8257-0D8D2511C310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{5CF24E1E-F055-4570-A50F-EC4897976DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CF24E1E-F055-4570-A50F-EC4897976DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CF24E1E-F055-4570-A50F-EC4897976DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEC00DE-CF05-4FFC-8257-0D8D2511C310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEC00DE-CF05-4FFC-8257-0D8D2511C310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEC00DE-CF05-4FFC-8257-0D8D2511C310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEC00DE-CF05-4FFC-8257-0D8D2511C310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5CF24E1E-F055-4570-A50F-EC4897976DCA} = {EB667F6D-3DBD-42DE-A9F2-12CC76E755C8}
+		{9FEC00DE-CF05-4FFC-8257-0D8D2511C310} = {EB667F6D-3DBD-42DE-A9F2-12CC76E755C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1A2A800-9475-4AA2-8B20-E9B0527AFC04}

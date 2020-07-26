@@ -5,7 +5,7 @@ using System.Linq;
 using ASIP.Shared;
 using DevDirectInput.Devices.Touchpads;
 
-namespace COTLTrackerParser
+namespace ASIP.Parsers.COTLTracker
 {
     public class SongReplayBuilder : ISongReplayBuilder
     {
