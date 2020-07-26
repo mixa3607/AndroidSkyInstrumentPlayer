@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASIP.Shared", "ASIP.Shared\ASIP.Shared.csproj", "{8AB0CB44-0900-4A73-A756-EE245B92119F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASIP.Shared", "ASIP.Shared\ASIP.Shared.csproj", "{8AB0CB44-0900-4A73-A756-EE245B92119F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASIP.Parsers", "ASIP.Parsers", "{EB667F6D-3DBD-42DE-A9F2-12CC76E755C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASIP.COTLTracker", "ASIP.COTLTracker\ASIP.COTLTracker.csproj", "{5CF24E1E-F055-4570-A50F-EC4897976DCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{8AB0CB44-0900-4A73-A756-EE245B92119F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB0CB44-0900-4A73-A756-EE245B92119F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB0CB44-0900-4A73-A756-EE245B92119F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF24E1E-F055-4570-A50F-EC4897976DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF24E1E-F055-4570-A50F-EC4897976DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF24E1E-F055-4570-A50F-EC4897976DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF24E1E-F055-4570-A50F-EC4897976DCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CF24E1E-F055-4570-A50F-EC4897976DCA} = {EB667F6D-3DBD-42DE-A9F2-12CC76E755C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1A2A800-9475-4AA2-8B20-E9B0527AFC04}
