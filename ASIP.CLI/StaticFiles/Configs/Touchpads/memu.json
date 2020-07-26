@@ -1,0 +1,372 @@
+{
+  "update": {
+    "Press": [
+      {
+        "valueType": "eventXPos",
+        "eventType": "evAbs",
+        "eventCode": "absMtPositionX",
+        "eventValue": 0
+      },
+      {
+        "valueType": "eventYPos",
+        "eventType": "evAbs",
+        "eventCode": "absMtPositionY",
+        "eventValue": 0
+      },
+      {
+        "valueType": "value",
+        "eventType": "evAbs",
+        "eventCode": "absMtTouchMajor",
+        "eventValue": 10
+      },
+      {
+        "valueType": "eventTrackingId",
+        "eventType": "evAbs",
+        "eventCode": "absMtTrackingId",
+        "eventValue": 0
+      }
+    ],
+    "Release": [
+      {
+        "valueType": "value",
+        "eventType": "evAbs",
+        "eventCode": "absMtTouchMajor",
+        "eventValue": 0
+      },
+      {
+        "valueType": "uintMax",
+        "eventType": "evAbs",
+        "eventCode": "absMtTrackingId",
+        "eventValue": 0
+      }
+    ]
+  },
+  "preSequence": [
+    {
+      "valueType": "eventSlot",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 0
+    }
+  ],
+  "postUpdate": [
+    {
+      "valueType": "value",
+      "eventType": "evSyn",
+      "eventCode": "synReport",
+      "eventValue": 0
+    }
+  ],
+  "postAbort": [
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 0
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 1
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 2
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 3
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 4
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 5
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 6
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 7
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 8
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 9
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 10
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 11
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 12
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 13
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 14
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 15
+    },
+    {
+      "valueType": "value",
+      "eventType": "evAbs",
+      "eventCode": "absMtTouchMajor",
+      "eventValue": 0
+    },
+    {
+      "valueType": "uintMax",
+      "eventType": "evAbs",
+      "eventCode": "absMtTrackingId",
+      "eventValue": 0
+    },
+
+    {
+      "valueType": "value",
+      "eventType": "evSyn",
+      "eventCode": "synReport",
+      "eventValue": 0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "notesPositionOptions": {
+    "StartX": 235,
+    "StartY": 160,
+    "StepX": 200,
+    "StepY": 200,
+    "InverseAxis": false
+  },
+  "targetTouchpadOptions": {
+    "Multitouch": 16,
+    "MaxXPos": 1280,
+    "MaxYPos": 720,
+    "DefaultClickPressure": 4,
+    "DefaultClickTicks": 2,
+    "Path": "/dev/input/event6"
+  },
+  "TriggerDevicesOptions": [
+    { "Path": "/dev/input/event2" }
+  ]
+}

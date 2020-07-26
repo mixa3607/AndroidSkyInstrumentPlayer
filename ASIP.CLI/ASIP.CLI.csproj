@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="PowerArgs" Version="3.6.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\ASIP.Parsers.COTLTracker\ASIP.Parsers.COTLTracker.csproj" />
+	  <ProjectReference Include="..\ASIP.Parsers.SkyStudio\ASIP.Parsers.SkyStudio.csproj" />
+	  <ProjectReference Include="..\ASIP.Shared\ASIP.Shared.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="StaticFiles\Configs\Smartphones\memu_ss.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\Configs\Smartphones\rmq_game.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\Configs\Smartphones\rmq_ss.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\Configs\Touchpads\rmq.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\Configs\Touchpads\memu.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\COTLTracker\hes_a_pirate.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\COTLTracker\kimi_no_na_wa.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\COTLTracker\let_her_go.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\SkyStudioTracker\Blue_bird_light_ver.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\SkyStudioTracker\Blue_bird_special_ver..txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\SkyStudioTracker\Connect.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\SkyStudioTracker\Elfen_lied.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\SkyStudioTracker\Example_Canon.C.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\SkyStudioTracker\for_elise.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>

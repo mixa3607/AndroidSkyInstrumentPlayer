@@ -1,0 +1,61 @@
+{
+  "update": {
+    "Press": [
+      {
+        "valueType": "eventTrackingId",
+        "eventType": "evAbs",
+        "eventCode": "absMtTrackingId",
+        "eventValue": 0
+      },
+      {
+        "valueType": "value",
+        "eventType": "evKey",
+        "eventCode": "btnTouch",
+        "eventValue": 1
+      },
+      {
+        "valueType": "eventXPos",
+        "eventType": "evAbs",
+        "eventCode": "absMtPositionX",
+        "eventValue": 0
+      },
+      {
+        "valueType": "eventYPos",
+        "eventType": "evAbs",
+        "eventCode": "absMtPositionY",
+        "eventValue": 0
+      }
+    ],
+    "Release": [
+      {
+        "valueType": "uintMax",
+        "eventType": "evAbs",
+        "eventCode": "absMtTrackingId",
+        "eventValue": 0
+      },
+      {
+        "valueType": "value",
+        "eventType": "evAbs",
+        "eventCode": "btnTouch",
+        "eventValue": 0
+      }
+    ]
+  },
+  "preSequence": [
+    {
+      "valueType": "eventSlot",
+      "eventType": "evAbs",
+      "eventCode": "absMtSlot",
+      "eventValue": 0
+    }
+  ],
+  "postUpdate": [
+    {
+      "valueType": "value",
+      "eventType": "evSyn",
+      "eventCode": "synReport",
+      "eventValue": 0
+    }
+  ],
+  "postAbort": []
+}
