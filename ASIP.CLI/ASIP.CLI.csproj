@@ -16,19 +16,25 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Update="StaticFiles\Configs\Smartphones\memu_ss.json">
+		<None Update="StaticFiles\Configs\Instruments\memu_3x5_ss.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
-		<None Update="StaticFiles\Configs\Smartphones\rmq_game.json">
+		<None Update="StaticFiles\Configs\Instruments\rmq_3x5_game.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
-		<None Update="StaticFiles\Configs\Smartphones\rmq_ss.json">
+		<None Update="StaticFiles\Configs\Instruments\rmq_3x5_ss.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
-		<None Update="StaticFiles\Configs\Touchpads\rmq.json">
+		<None Update="StaticFiles\Configs\TpadsDevice\memu.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\Configs\TpadsDevice\rmq.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="StaticFiles\Configs\TpadsEvents\rmq.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
-		<None Update="StaticFiles\Configs\Touchpads\memu.json">
+		<None Update="StaticFiles\Configs\TpadsEvents\memu.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 		<None Update="StaticFiles\COTLTracker\hes_a_pirate.txt">

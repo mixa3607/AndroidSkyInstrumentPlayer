@@ -1,0 +1,10 @@
+{
+  "Columns": 5,
+  "Rows": 3,
+
+  "StartX": 240,
+  "StartY": 1780,
+  "StepX": 300,
+  "StepY": -300,
+  "InverseAxis": true
+}

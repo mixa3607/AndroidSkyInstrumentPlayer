@@ -26,6 +26,18 @@
         "eventValue": 0
       }
     ],
+    "Hold": [
+      {
+        "valueType": "eventXPos",
+        "eventType": "evAbs",
+        "eventCode": "absMtPositionX"
+      },
+      {
+        "valueType": "eventYPos",
+        "eventType": "evAbs",
+        "eventCode": "absMtPositionY"
+      }
+    ],
     "Release": [
       {
         "valueType": "uintMax",

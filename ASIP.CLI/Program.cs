@@ -13,17 +13,20 @@ namespace ASIP.CLI
     {
         static void Main(string[] args)
         {
-            //args = new[] {
-            //    "-e", "StaticFiles/Configs/Touchpads/memu.json", 
-            //    "-c", "StaticFiles/Configs/Smartphones/memu_ss.json", 
-            //    "-i", "StaticFiles/SkyStudioTracker/Example_Canon.C.txt",
-            //    "-o", @"./Example_Canon.C.json",
-            //    "-t", "skyStudio"
-            //};
+            /*args = new[] {
+                "-e", "StaticFiles/Configs/TpadsEvents/memu.json", 
+                "-c", "StaticFiles/Configs/TpadsDevice/memu.json", 
+                "-m", "StaticFiles/Configs/Instruments/memu_3x5_ss.json",
+                "-i", "StaticFiles/SkyStudioTracker/Example_Canon.C.txt",
+                "-o", @"./Example_Canon.C.json",
+                "-t", "skyStudio"
+            };*/
+            /*args =
+                "-e StaticFiles/Configs/TpadsEvents/rmq.json -c StaticFiles/Configs/TpadsDevice/rmq.json -m StaticFiles/Configs/Instruments/rmq_3x5_ss.json -i StaticFiles/SkyStudioTracker/Blue_bird_light_ver.txt -o Blue_bird_light_ver.txt.json -t skyStudio"
+                    .Split(' ');*/
             var mainOptions = Args.Parse<ASIPOptions>(args);
             if (mainOptions == null)
                 return;
-            ASIPGlobalOpts.Logging = mainOptions.Verbose;
 
             var replay = Build(mainOptions);
             File.WriteAllText(mainOptions.OutFilePath, replay.ToJson());
@@ -33,10 +36,10 @@ namespace ASIP.CLI
         static InputReplay Build(ASIPOptions asipOptions)
         {
             Console.Write("Creating touchpad... ");
-            var touchpad = new ConfigurableTouchpad(asipOptions.TouchpadConfig, asipOptions.SmartphoneConfig.TargetTouchpadOptions, EDevicePurpose.Target);
+            var touchpad = new ConfigurableTouchpad(asipOptions.TouchpadConfig, asipOptions.SmTpadConfig.TargetTouchpadOptions, EDevicePurpose.Target);
             Console.WriteLine("OK");
             Console.Write("Calculating notes coordinates... ");
-            var noteCoords = new NoteCoordinates(asipOptions.SmartphoneConfig.NotesPositionOptions);
+            var noteCoords = new NoteCoordinates(asipOptions.InstrumentConfig);
             noteCoords.Calculate();
             Console.WriteLine("OK");
 
@@ -61,7 +64,7 @@ namespace ASIP.CLI
                 About = asipOptions.SongAbout ?? parser.GetAbout() + " " + "https://asip.arkprojects.space"
             };
             replayBuilder.AddDevice(touchpad);
-            foreach (var devicesOptions in asipOptions.SmartphoneConfig.TriggerDevicesOptions)
+            foreach (var devicesOptions in asipOptions.SmTpadConfig.TriggerDevicesOptions)
             {
                 replayBuilder.AddDevice(new GenericTriggerDevice(devicesOptions));
             }

@@ -4,14 +4,12 @@
       {
         "valueType": "eventXPos",
         "eventType": "evAbs",
-        "eventCode": "absMtPositionX",
-        "eventValue": 0
+        "eventCode": "absMtPositionX"
       },
       {
         "valueType": "eventYPos",
         "eventType": "evAbs",
-        "eventCode": "absMtPositionY",
-        "eventValue": 0
+        "eventCode": "absMtPositionY"
       },
       {
         "valueType": "value",
@@ -22,8 +20,19 @@
       {
         "valueType": "eventTrackingId",
         "eventType": "evAbs",
-        "eventCode": "absMtTrackingId",
-        "eventValue": 0
+        "eventCode": "absMtTrackingId"
+      }
+    ],
+    "Hold": [
+      {
+        "valueType": "eventXPos",
+        "eventType": "evAbs",
+        "eventCode": "absMtPositionX"
+      },
+      {
+        "valueType": "eventYPos",
+        "eventType": "evAbs",
+        "eventCode": "absMtPositionY"
       }
     ],
     "Release": [
@@ -36,8 +45,7 @@
       {
         "valueType": "uintMax",
         "eventType": "evAbs",
-        "eventCode": "absMtTrackingId",
-        "eventValue": 0
+        "eventCode": "absMtTrackingId"
       }
     ]
   },
@@ -45,8 +53,7 @@
     {
       "valueType": "eventSlot",
       "eventType": "evAbs",
-      "eventCode": "absMtSlot",
-      "eventValue": 0
+      "eventCode": "absMtSlot"
     }
   ],
   "postUpdate": [
@@ -76,7 +83,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -95,7 +101,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -114,7 +119,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -133,7 +137,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -152,7 +155,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -171,7 +173,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -190,7 +191,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -209,7 +209,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -228,7 +227,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -247,7 +245,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -266,7 +263,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -285,7 +281,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -304,7 +299,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -323,7 +317,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -342,7 +335,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evAbs",
@@ -361,7 +353,6 @@
       "eventCode": "absMtTrackingId",
       "eventValue": 0
     },
-
     {
       "valueType": "value",
       "eventType": "evSyn",

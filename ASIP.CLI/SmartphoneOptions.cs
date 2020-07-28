@@ -1,11 +1,9 @@
-﻿using ASIP.Shared;
-using DevDirectInput.Devices.Options;
+﻿using DevDirectInput.Devices.Options;
 
 namespace ASIP.CLI
 {
-    public class SmartphoneOptions
+    public class SmartphoneTpadOptions
     {
-        public NotesPositionOptions NotesPositionOptions { get; set; }
         public TouchpadOptions TargetTouchpadOptions { get; set; }
         public DeviceOptions[] TriggerDevicesOptions { get; set; }
     }
